@@ -38,7 +38,8 @@ const addNoteHandler=(e)=>{
 
     setDate(""); // when we submit the button all the feild set to null
     setTitle("");
-    setDescription("")
+    setDescription("");
+    setIsSubmitDisabled(true);
     
 
 }
